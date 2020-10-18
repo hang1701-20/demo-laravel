@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c83e9b16-f2a5-438e-89a4-b7e9ca15f9ce" name="Default Changelist" comment="" />
+    <list default="true" id="c83e9b16-f2a5-438e-89a4-b7e9ca15f9ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/codebase/blade/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/codebase/blog/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/codebase/blog/delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/codebase/partials/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/codebase/product/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,16 +140,32 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iMksCNMqwRw44aDIX1SMpI2d1r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\app\Http\Controllers\Codebase" />
+      <recent name="C:\xampp\htdocs\laravel\app\Http\Controllers" />
+      <recent name="C:\xampp\htdocs\laravel\resources\views\codebase\blog" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -147,11 +183,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601725052413</updated>
-      <workItem from="1601725054691" duration="651000" />
+      <workItem from="1601725054691" duration="1852000" />
+      <workItem from="1601731666876" duration="17000" />
+      <workItem from="1601731685827" duration="1021000" />
+      <workItem from="1601810407922" duration="9477000" />
+      <workItem from="1601864900538" duration="4666000" />
+      <workItem from="1602037864170" duration="3545000" />
+      <workItem from="1602414947559" duration="1206000" />
+      <workItem from="1603009237287" duration="3122000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601867770715">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="449" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1601867770715" />
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601814747167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1601814747167" />
+    <state x="462" y="134" key="FileChooserDialogImpl" timestamp="1602416396857">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602416396857" />
+    <state x="544" y="212" key="NewPhpFileDialog" timestamp="1603012053802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="544" y="212" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603012053802" />
+    <state x="389" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1601731669423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601731669423" />
   </component>
 </project>
