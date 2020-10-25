@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83e9b16-f2a5-438e-89a4-b7e9ca15f9ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/codebase/blade/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/codebase/blog/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/codebase/blog/delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/codebase/partials/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/codebase/product/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Codebase/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Codebase/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +159,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\resources\views\codebase" />
       <recent name="C:\xampp\htdocs\laravel\app\Http\Controllers\Codebase" />
       <recent name="C:\xampp\htdocs\laravel\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\laravel\resources\views\codebase\blog" />
@@ -190,7 +188,13 @@
       <workItem from="1601864900538" duration="4666000" />
       <workItem from="1602037864170" duration="3545000" />
       <workItem from="1602414947559" duration="1206000" />
-      <workItem from="1603009237287" duration="3122000" />
+      <workItem from="1603009237287" duration="16052000" />
+      <workItem from="1603072829831" duration="2303000" />
+      <workItem from="1603165335487" duration="613000" />
+      <workItem from="1603279508008" duration="1862000" />
+      <workItem from="1603329746580" duration="481000" />
+      <workItem from="1603550783172" duration="1672000" />
+      <workItem from="1603591894834" duration="315000" />
     </task>
     <servers />
   </component>
@@ -206,17 +210,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1601814747167" />
-    <state x="462" y="134" key="FileChooserDialogImpl" timestamp="1602416396857">
+    <state x="462" y="134" key="FileChooserDialogImpl" timestamp="1603330229065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602416396857" />
+    <state x="462" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603330229065" />
     <state x="544" y="212" key="NewPhpFileDialog" timestamp="1603012053802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="544" y="212" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603012053802" />
-    <state x="389" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1601731669423">
+    <state x="389" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1603591920134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601731669423" />
+    <state x="389" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603591920134" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/routes/web.php</url>
+          <line>108</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

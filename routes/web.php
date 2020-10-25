@@ -78,3 +78,35 @@ Route::get('/blade/news', 'Codebase\BladeController@news');
 
 Route::get("/product/create", "Codebase\ProductController@create");
 Route::post("/product/store", "Codebase\ProductController@store");
+
+/*===============end==========*/
+/*=============== test 1==========*/
+
+Route::get("/product/detail/{id}/{return}", "Codebase\ProductController@detail");
+Route::get("/product/responsel", "Codebase\ProductController@demoResponsel");
+Route::get("/product/responsel2", "Codebase\ProductController@demoResponsel2")->name("responsel2");
+//chuyen huong den 1 url ben ngoai trang web
+Route::get("/product/responsel3", "Codebase\ProductController@demoResponsel3");
+Route::get("/product/responsel4", "Codebase\ProductController@demoResponsel4");
+Route::get("/product/response5", "Codebase\ProductController@demonResponse5");
+
+Route::get("/product/response6", "Codebase\ProductController@demoResponse6");
+Route::get("/product/response7/{id}", "Codebase\ProductController@demoResponse7")->name("response7");
+
+Route::get("/product/response8", "Codebase\ProductController@demoResponse8");
+Route::get("/product/response9", "Codebase\ProductController@demoResponse9");
+
+Route::get("/di-an-sang", function (){
+   echo "<br> đi an sang";
+})->middleware("openhour");
+
+Route::get("/dong-cua", function (){
+    echo"<br> dang dong cua chua den gio lam viec";
+});
+
+//Route::get("/create", "Codebase\ProductController@handl");
+//Route::get("/dong-cua", "Codebase\ProductController@dongcua");
+
+
+
+
